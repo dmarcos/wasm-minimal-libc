@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body {
+  height: 100%;
+  font-family: monospace;
+  font-size: 20pt;
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-auto-rows: auto;
+  align-items: start;
+  grid-auto-rows: fit-content(1em);
+  grid-gap: 10px;
+}

@@ -43,7 +43,7 @@ https://github.com/taybenlor/runno
 
 ## Notes
 
-`/vendor/wasi.js` is built from the [runno wasi js runtime](https://github.com/taybenlor/runno/tree/main/packages/wasi) by running `mpm run build`. There are two small modifications on https://github.com/taybenlor/runno/commit/9b9dc1f3142c that I might submit upstream:
+`/vendor/wasi.js` is built from the [runno wasi js runtime](https://github.com/taybenlor/runno/tree/main/packages/wasi) by running `mpm run build`. There are two small modifications on [9b9dc1f3142c](https://github.com/taybenlor/runno/commit/9b9dc1f3142c) that I might submit upstream:
 
 1. The ability to pass a WebAssembly.Memory object to the runtime. 
 2. The ability to pass an object with JS-defined functions that can be invoked from native code.

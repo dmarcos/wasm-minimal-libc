@@ -4,7 +4,7 @@
 - No Emscripten. 
 - Stripped down to the bare minimum. Every line of code has a purpose.
 
-This builds on a [self-contained minimal WASM template] that I recommend to look at if you want to learn how the bare WASM stack works without the standard / system library complexity. To use libC from WASM we need to know: 
+This builds on a [self-contained minimal WASM template](https://github.com/dmarcos/wasm-minimal) that I recommend to look at if you want to learn how the bare WASM stack works without the additional standard / system library complexity. To use libC from WASM we need to know: 
 
 - **WebAssembly is designed to be cross-platform so there's no platform API to target** (to open a file, access the network stack, write on the standard output, environment variables...). 
 - **[WASI](https://wasi.dev/) is an effort to create a standard system API for WASM** that is platform agnostic. The official [wasi-skd](https://github.com/WebAssembly/wasi-sdk) includes headers and libraries to compile and link your code against.

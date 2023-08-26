@@ -4,7 +4,7 @@
 - No Emscripten. 
 - Stripped down to the bare minimum. Every line of code has a purpose.
 
-This repo is Mac only for now.
+This repo is Mac only for now. Downloaded libraries, compiler and linker are Mac binaries. This repo could be adapted easily to Windows or Linux. I just don't have the bandwidth at the moment or one of those machines available.
 
 This builds on a [self-contained minimal WASM template](https://github.com/dmarcos/wasm-minimal) that I recommend to look at if you want to learn how the bare WASM stack works without the additional standard / system library complexity. To use libC from WASM we need to know: 
 

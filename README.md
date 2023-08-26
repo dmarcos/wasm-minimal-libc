@@ -51,6 +51,3 @@ https://github.com/taybenlor/runno
 2. The ability to pass an object with JS-defined functions that can be invoked from native code.
 
 I included a `wasi.js.original` file as a references for the differences (git diff wasi.js wasi.js.original)
-
-https://github.com/taybenlor/runno/commit/9b9dc1f3142c
-
